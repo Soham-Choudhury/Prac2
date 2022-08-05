@@ -1,7 +1,9 @@
 #include "Referee.h"
+#include "Computer.h"
+#include "Human.h"
 
- char refGame(Human human, Computer computer){
-    
+ char Referee::refGame(Human human, Computer computer){
+
     char humanmove=human.makeMove();
     char computermove=computer.makeMove();
     char output;

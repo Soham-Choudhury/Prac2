@@ -8,7 +8,7 @@ int main (){
     Computer computer;
     Referee referee;
       
-    std::cout<<referee.refGame(human, computer);
-    
+    std::cout<<referee.refGame(human, computer)<<std::endl;
+
     return 0;
 }
